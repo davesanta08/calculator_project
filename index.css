@@ -1,0 +1,99 @@
+
+*{
+    scrollbar-width: none;
+}
+body{
+    height: 100vh;
+    /* width: 100vw; */
+    /* padding: 70px; */
+    background-color: deepskyblue;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.container{
+    /* border: 2px solid orange; */
+    width: 250px;
+    /* height: 400px; */
+    font-size: larger;
+    background-color: rgb(50,55,67);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.boxNo{
+    /* border: 2px solid rgb(207, 23, 23); */
+    border-radius: 6px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+#equationDisplay{
+    /* border: 2px solid red; */
+    width: 90%;
+    font-size: 30px;
+    color: white;
+    text-align: right;
+    margin-right: 5px;
+    overflow-x: auto;
+    word-break: break-all;
+    padding: 5px;
+}
+#solutionDisplay{
+    /* border: 2px solid blue; */
+    width: 94%;
+    font-size: 50px;
+    color: white;
+    text-align: right;
+    margin-right: 5px;
+    overflow-x: auto;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    margin: 3px;
+    background-color: rgb(51,57,73);
+    font-size: 20px;
+    color: white;
+    box-shadow:  1.5px 1.5px 1.5px 1.5px rgb(26,32,48);
+}
+/* #zeroBtn{
+    border-radius: 15px;
+    width: 95px;
+    height: 40px;
+} */
+
+.designColor{
+    background-color: rgb(210,116,31);
+}
+.arithSection{
+    border: 2px solid black;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btns{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.colorDesign{
+    background-color: rgb(77,88,104);
+}
+#delete{
+    font-size: 15px;
+}
