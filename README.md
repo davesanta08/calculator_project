@@ -1,0 +1,1 @@
+This is a Calculator project, that i used technologies like html, css and javascript to build.
