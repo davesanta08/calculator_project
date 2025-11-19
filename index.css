@@ -77,7 +77,7 @@ button{
     background-color: rgb(210,116,31);
 }
 .arithSection{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 25px;
     display: flex;
     flex-direction: column;
