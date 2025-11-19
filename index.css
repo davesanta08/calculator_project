@@ -29,7 +29,7 @@ body{
 .boxNo{
     /* border: 2px solid rgb(207, 23, 23); */
     border-radius: 6px;
-    height: 150px;
+    height: 151px;
     display: flex;
     flex-direction: column;
     justify-content: end;
